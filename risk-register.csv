@@ -1,0 +1,6 @@
+risk_id,asset,threat,impact,control
+F001,Irrigation Controller,Unauthorised command,High,Authentication + allow-listing
+F002,Soil Sensor,Spoofed reading,Medium,Device identity + validation
+F003,Cloud Dashboard,Account takeover,High,MFA
+F004,IoT Gateway,Remote compromise,High,Patch management
+F005,Wireless Link,Traffic interception,High,Encryption
